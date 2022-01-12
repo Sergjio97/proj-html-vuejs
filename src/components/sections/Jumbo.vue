@@ -69,6 +69,9 @@ export default {
         color: #fff;
       }
     }
+    li:last-child:hover {
+      filter:opacity(80%);
+    }
   }
   .title {
     width: 100%;

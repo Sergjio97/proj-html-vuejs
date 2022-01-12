@@ -19,6 +19,8 @@
 
     <Jumbo :links="links"/>
 
+    <h3><i class="far fa-paper-plane"></i>get a free quote online now!</h3>
+
   </header>
 </template>
 
@@ -92,6 +94,23 @@ export default {
   svg:hover {
     color: #6b6b6b;
   }
+}
+
+h3 {
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #1975c0;
+  color: #fff;
+  padding: 60px 0px;
+  cursor: pointer;
+  svg {
+    margin-right: 15px;
+  }
+}
+h3:hover {
+  filter:opacity(80%);
 }
 
 </style>
