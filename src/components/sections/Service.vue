@@ -36,7 +36,7 @@ export default {
     h1 {
         font-size: 59px;
         color: #69bf14;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
     }
     .box {
         width: 100%;
