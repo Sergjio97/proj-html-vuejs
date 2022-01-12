@@ -17,7 +17,7 @@
 
     </div>
 
-    <Jumbo/>
+    <Jumbo :links="links"/>
 
   </header>
 </template>
@@ -28,8 +28,41 @@ export default {
     name: 'Header',
     components: {
       Jumbo,
+    },
+    data() {
+      return {
+        links: [
+          {
+            title: 'Home',
+            link: '#'
+          },
+          {
+            title: 'Rates',
+            link: '#'
+          },
+          {
+            title: 'Testimonials',
+            link: '#'
+          },
+          {
+            title: 'FAQ',
+            link: '#'
+          },
+          {
+            title: 'Blog',
+            link: '#'
+          },
+          {
+            title: 'Contact',
+            link: '#'
+          },
+          {
+            title: 'Free quote',
+            link: '#'
+          }
+        ]
+      }
     }
-
 }
 </script>
 
@@ -40,7 +73,8 @@ export default {
   justify-content: space-around;
   background-color: #69bf14;
   color: #fff;
-  padding: 10px;
+  padding: 15px;
+  font-size: 13px;
 }
 
 .col-sn {
@@ -51,7 +85,12 @@ export default {
 
 .col-dx {
   svg {
-    margin-right: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  svg:hover {
+    color: #6b6b6b;
   }
 }
 
