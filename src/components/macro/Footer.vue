@@ -1,10 +1,16 @@
 <template>
-  <footer></footer>
+  <footer>
+    <FooterNav/>
+  </footer>
 </template>
 
 <script>
+import FooterNav from '../sections/FooterNav.vue'
 export default {
-    name: 'Footer'
+    name: 'Footer',
+    components: {
+      FooterNav,
+    },
 }
 </script>
 

@@ -31,7 +31,7 @@ export default {
     }
     p {
         line-height: 2.0;
-        margin-bottom: 30px;
+        margin-bottom: 45px;
     }
     a {
         text-decoration: none;
