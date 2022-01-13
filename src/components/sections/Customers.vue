@@ -36,7 +36,7 @@ export default {
     text-align: center;
     padding: 220px 0px;
     background-image: url(../../assets/img/avada-movers-testimonial-background.jpg);
-    background-position: center top;
+    background-position: center;
     h4 {
         color: #afaeae;
         text-transform: uppercase;

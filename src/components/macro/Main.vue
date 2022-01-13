@@ -4,6 +4,7 @@
     <Service/>
     <FreeQuote/>
     <Customers/>
+    <RequestQuote/>
   </main>
 </template>
 
@@ -11,7 +12,8 @@
 import Testimonials from '../sections/Testimonials.vue';
 import Service from '../sections/Service.vue';
 import FreeQuote from '../sections/FreeQuote.vue';
-import Customers from '../sections/Customers.vue'
+import Customers from '../sections/Customers.vue';
+import RequestQuote from '../sections/RequestQuote.vue'
 export default {
     name: 'Main',
     components: {
@@ -19,6 +21,7 @@ export default {
       Service,
       FreeQuote,
       Customers,
+      RequestQuote
     }
 }
 </script>
